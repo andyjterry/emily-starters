@@ -37,6 +37,10 @@ To re-brand for a client: edit the colours/fonts in `emily.config.json`, rebuild
 
 All starters share the same section vocabulary from `emily-components/templates/` — only `emily.config.json` differs per brand.
 
+## Images
+
+Starters reference relative local placeholders (`images/placeholders/team-member.jpg`, `case-study.jpg`, `community-event.jpg`, …). The files are intentionally not committed — drop your own images under those names, or swap the paths. Never wire a starter to a live third-party image host; use licensed/approved images in production. Meaningful images need real alt text, decorative ones `alt=""`.
+
 ## Boundaries
 
 - Placeholder copy only — client copy belongs in client projects.
