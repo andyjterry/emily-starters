@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spring Offer — Campaign Landing Page Starter</title>
+  <meta name="description" content="Emily UI campaign landing page starter: message-matched hero, proof, single enquiry form, minimal chrome, one conversion goal.">
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="dist/emily.css">
+</head>
+<body class="bg-light text-neutral-90">
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Minimal landing chrome: logo + phone, no navigation -->
+  <header class="py-4 border-b border-neutral-20">
+    <div class="width-container cluster-between">
+      <span class="text-xl font-bold text-neutral-90">Business Name</span>
+      <a class="btn btn-primary btn-sm" href="tel:+441234567890">01234 567 890</a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="section-sm">
+      <div class="width-container">
+        <div class="alert alert-info">
+          <p><strong>Offer:</strong> campaign terms in one sentence, valid until a stated date.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-lg">
+      <div class="width-container">
+        <span class="eyebrow">Limited availability</span>
+        <h1 class="hero-title">Headline matching the ad that brought you here</h1>
+        <p class="hero-lead">The same promise restated, then straight to the point: what you get and what to do next.</p>
+        <div class="button-group">
+          <a class="btn btn-primary btn-lg" href="#form">Claim the offer</a>
+        </div>
+        <p class="text-sm text-neutral-60">No obligation · Reply within one working day</p>
+      </div>
+    </section>
+
+    <section class="section-sm" aria-label="Why trust us">
+      <div class="width-container">
+        <ul class="trust-strip">
+          <li><span class="badge">Certified</span></li>
+          <li><span class="badge">Fully insured</span></li>
+          <li><span class="badge">5-star rated</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="fit-heading">
+      <div class="width-container stack-lg">
+        <h2 class="text-3xl font-semibold" id="fit-heading">Is this for you?</h2>
+        <div class="grid-auto">
+          <div class="card stack-sm">
+            <h3 class="text-lg font-semibold">The problem</h3>
+            <p class="text-neutral-60">The situation the offer solves, in the customer's words.</p>
+            <hr class="divider" style="margin-block: 0.5rem">
+            <h3 class="text-lg font-semibold text-brand-80">What you get</h3>
+            <p class="text-neutral-60">The concrete deliverable of the offer.</p>
+          </div>
+          <figure class="card stack-sm">
+            <blockquote><p class="text-neutral-80">“One customer quote that matches the offer.”</p></blockquote>
+            <figcaption><span class="font-semibold text-neutral-90">Customer name</span> <span class="block text-sm text-neutral-60">Town</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="form" aria-labelledby="form-heading">
+      <div class="width-container">
+        <form class="card stack" method="post" action="#" style="max-width: 32rem; margin-inline: auto" novalidate>
+          <h2 class="text-2xl font-semibold" id="form-heading">Claim the offer</h2>
+          <div class="field-container" style="margin-bottom: 0">
+            <label for="name">Full name</label>
+            <input class="input" id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field-container" style="margin-bottom: 0">
+            <label for="phone">Phone number</label>
+            <input class="input" id="phone" name="phone" type="tel" autocomplete="tel" required>
+          </div>
+          <div class="field-container" style="margin-bottom: 0">
+            <label for="postcode">Postcode</label>
+            <input class="input" id="postcode" name="postcode" type="text" autocomplete="postal-code" required style="max-width: 12rem">
+          </div>
+          <button class="btn btn-primary btn-lg" type="submit">Request a call back</button>
+          <p class="text-sm text-neutral-60">We only use these details to respond to this request.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="section-sm bg-neutral-10 border-t border-neutral-20">
+    <div class="width-container cluster-between">
+      <p class="text-sm text-neutral-60">© Business Name — placeholder starter content</p>
+      <nav aria-label="Legal">
+        <ul class="inline-list text-sm">
+          <li><a class="text-neutral-80" href="#">Privacy</a></li>
+          <li><a class="text-neutral-80" href="#">Terms of the offer</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>

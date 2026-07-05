@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>North Field Workshop — Portfolio / Case Study Starter</title>
+  <meta name="description" content="Emily UI portfolio starter: work-led homepage with portfolio grid, featured case study, approach, and contact entry point.">
+  <link rel="stylesheet" href="dist/emily.css">
+</head>
+<body class="bg-light text-neutral-90">
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="py-4 border-b border-neutral-20">
+    <div class="width-container cluster-between">
+      <a class="text-xl font-bold text-neutral-90 no-underline" href="/">North Field Workshop</a>
+      <nav aria-label="Main">
+        <ul class="inline-list">
+          <li><a class="text-neutral-80" href="#work">Work</a></li>
+          <li><a class="text-neutral-80" href="#approach">Approach</a></li>
+          <li><a class="btn btn-primary btn-sm" href="#contact">Start a conversation</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="section-lg">
+      <div class="width-container">
+        <span class="eyebrow">Selected work</span>
+        <h1 class="hero-title">The work speaks first</h1>
+        <p class="hero-lead">One sentence about the kind of projects taken on and for whom.</p>
+        <a class="btn btn-primary btn-lg" href="#work">See the work</a>
+      </div>
+    </section>
+
+    <section class="section" id="work" aria-labelledby="work-heading">
+      <div class="width-container stack-lg">
+        <h2 class="text-3xl font-semibold" id="work-heading">Portfolio</h2>
+        <div class="grid-auto">
+          <article class="card card-hover stack-sm relative">
+            <div class="card-media"><img class="aspect-3/2" src="images/placeholder-work-1.jpg" width="600" height="400" alt=""></div>
+            <h3 class="text-lg font-semibold"><a class="text-neutral-90 no-underline" href="#case-study">Project one<span class="absolute inset-0" aria-hidden="true"></span></a></h3>
+            <p class="text-sm text-neutral-60">Client type · outcome in three words</p>
+          </article>
+          <article class="card card-hover stack-sm relative">
+            <div class="card-media"><img class="aspect-3/2" src="images/placeholder-work-2.jpg" width="600" height="400" alt=""></div>
+            <h3 class="text-lg font-semibold"><a class="text-neutral-90 no-underline" href="#case-study">Project two<span class="absolute inset-0" aria-hidden="true"></span></a></h3>
+            <p class="text-sm text-neutral-60">Client type · outcome</p>
+          </article>
+          <article class="card card-hover stack-sm relative">
+            <div class="card-media"><img class="aspect-3/2" src="images/placeholder-work-3.jpg" width="600" height="400" alt=""></div>
+            <h3 class="text-lg font-semibold"><a class="text-neutral-90 no-underline" href="#case-study">Project three<span class="absolute inset-0" aria-hidden="true"></span></a></h3>
+            <p class="text-sm text-neutral-60">Client type · outcome</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="case-study" aria-labelledby="cs-heading">
+      <div class="width-container split card" style="align-items: center">
+        <img class="aspect-4/3 object-cover w-full rounded-md" src="images/placeholder-featured.jpg" alt="">
+        <div class="stack-sm">
+          <span class="eyebrow">Featured case study</span>
+          <h2 class="text-2xl font-semibold" id="cs-heading">The outcome, as the headline</h2>
+          <p class="text-neutral-60">Problem, approach, and measurable result in two sentences.</p>
+          <dl class="stack-sm">
+            <div class="cluster-between"><dt class="text-sm text-neutral-60">Timeline</dt><dd class="font-semibold text-neutral-90">6 weeks</dd></div>
+            <div class="cluster-between"><dt class="text-sm text-neutral-60">Scope</dt><dd class="font-semibold text-neutral-90">Placeholder scope</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="approach" aria-labelledby="approach-heading">
+      <div class="width-container split">
+        <div class="stack">
+          <h2 class="text-3xl font-semibold" id="approach-heading">How projects run</h2>
+          <p class="text-neutral-60">Two sentences on process: how work starts, how decisions get made, what the handover looks like.</p>
+          <ul class="stack-sm pl-6 list-disc text-neutral-80">
+            <li>Small number of projects at a time</li>
+            <li>Weekly progress notes</li>
+            <li>Everything documented at handover</li>
+          </ul>
+        </div>
+        <aside class="card stack-sm" aria-label="At a glance">
+          <h3 class="text-xl font-semibold">At a glance</h3>
+          <p class="text-neutral-60"><strong class="text-neutral-90">60+</strong> projects shipped</p>
+          <p class="text-neutral-60"><strong class="text-neutral-90">80%</strong> repeat or referred clients</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-heading">
+      <div class="width-container">
+        <div class="cta-band">
+          <h2 class="text-3xl font-semibold" id="contact-heading">Have a project in mind?</h2>
+          <p>One line inviting a short, no-pressure conversation.</p>
+          <a class="btn btn-primary btn-lg" href="mailto:hello@example.com">Start a conversation</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="section-sm bg-neutral-10 border-t border-neutral-20">
+    <div class="width-container cluster-between">
+      <p class="text-sm text-neutral-60">© North Field Workshop — placeholder starter content</p>
+      <nav aria-label="Legal">
+        <ul class="inline-list text-sm">
+          <li><a class="text-neutral-80" href="#">Privacy</a></li>
+          <li><a class="text-neutral-80" href="#">Accessibility</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>

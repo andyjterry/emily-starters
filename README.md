@@ -29,6 +29,13 @@ To re-brand for a client: edit the colours/fonts in `emily.config.json`, rebuild
 | Folder | What it proves |
 |---|---|
 | `local-service-business/` | Homepage: header/nav, hero, services grid, trust strip, split section, CTA band, contact form, footer |
+| `one-page-business/` | Whole business on one page: sticky header, services, about, testimonials, FAQ, contact |
+| `professional-services/` | Credibility-led firm site: top bar, process, team, client outcomes, consultation form |
+| `charity-community/` | Mission-led site: impact stats, programmes, story + pull quote, donate CTA, volunteer form |
+| `portfolio-case-study/` | Work-led site: portfolio grid, featured case study, approach, contact band |
+| `campaign-landing/` | Single-goal landing page: minimal chrome, offer alert, one form, noindex |
+
+All starters share the same section vocabulary from `emily-components/templates/` — only `emily.config.json` differs per brand.
 
 ## Boundaries
 

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riverside Studio — One-Page Business Starter</title>
+  <meta name="description" content="Emily UI one-page business starter: hero, services, about split, testimonials, FAQ, and contact form on a single page.">
+  <link rel="stylesheet" href="dist/emily.css">
+</head>
+<body class="bg-light text-neutral-90">
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="sticky top-0 z-40 bg-light py-4 border-b border-neutral-20">
+    <div class="width-container cluster-between">
+      <a class="text-xl font-bold text-neutral-90 no-underline" href="/">Riverside Studio</a>
+      <nav aria-label="Main">
+        <ul class="inline-list">
+          <li><a class="text-neutral-80" href="#services">Services</a></li>
+          <li><a class="text-neutral-80" href="#about">About</a></li>
+          <li><a class="btn btn-primary btn-sm" href="#contact">Start a project</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="section-lg">
+      <div class="width-container">
+        <span class="eyebrow">Design and build, done properly</span>
+        <h1 class="hero-title">Everything your business needs, on one page</h1>
+        <p class="hero-lead">Who we help, what we make, and how to start — no maze of pages, just the essentials.</p>
+        <div class="button-group">
+          <a class="btn btn-primary btn-lg" href="#contact">Start a project</a>
+          <a class="btn btn-secondary btn-lg" href="#services">See services</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-sm" aria-label="Why clients trust us">
+      <div class="width-container">
+        <ul class="trust-strip">
+          <li><span class="badge">10+ years trading</span></li>
+          <li><span class="badge">Fixed-price quotes</span></li>
+          <li><span class="badge">5-star rated</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="services" aria-labelledby="services-heading">
+      <div class="width-container stack-lg">
+        <h2 class="text-3xl font-semibold" id="services-heading">What we do</h2>
+        <div class="grid-auto" role="list">
+          <article class="card stack-sm" role="listitem">
+            <h3 class="text-xl font-semibold">Service one</h3>
+            <p class="text-neutral-60">One sentence on the outcome this delivers.</p>
+          </article>
+          <article class="card stack-sm" role="listitem">
+            <h3 class="text-xl font-semibold">Service two</h3>
+            <p class="text-neutral-60">One sentence on the outcome this delivers.</p>
+          </article>
+          <article class="card stack-sm" role="listitem">
+            <h3 class="text-xl font-semibold">Service three</h3>
+            <p class="text-neutral-60">One sentence on the outcome this delivers.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <div class="width-container split">
+        <div class="stack">
+          <h2 class="text-3xl font-semibold" id="about-heading">Small team, straight answers</h2>
+          <p class="text-neutral-60">Two or three sentences about who runs the business and how work actually gets done.</p>
+          <ul class="stack-sm pl-6 list-disc text-neutral-80">
+            <li>Fixed quote before work starts</li>
+            <li>One point of contact throughout</li>
+            <li>Everything documented and handed over</li>
+          </ul>
+        </div>
+        <aside class="card stack-sm" aria-label="At a glance">
+          <h3 class="text-xl font-semibold">At a glance</h3>
+          <p class="text-neutral-60"><strong class="text-neutral-90">150+</strong> projects delivered</p>
+          <p class="text-neutral-60"><strong class="text-neutral-90">4.9/5</strong> average rating</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="reviews-heading">
+      <div class="width-container stack-lg">
+        <h2 class="text-3xl font-semibold" id="reviews-heading">What clients say</h2>
+        <div class="grid-auto">
+          <figure class="card stack-sm">
+            <blockquote><p class="text-neutral-80">“Short quote about working with the studio.”</p></blockquote>
+            <figcaption><span class="font-semibold text-neutral-90">Client name</span> <span class="block text-sm text-neutral-60">Company</span></figcaption>
+          </figure>
+          <figure class="card stack-sm">
+            <blockquote><p class="text-neutral-80">“Second quote about the result.”</p></blockquote>
+            <figcaption><span class="font-semibold text-neutral-90">Client name</span> <span class="block text-sm text-neutral-60">Company</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="faq-heading">
+      <div class="width-container stack-lg">
+        <h2 class="text-3xl font-semibold" id="faq-heading">Common questions</h2>
+        <div class="stack">
+          <details class="card">
+            <summary class="text-lg font-semibold cursor-pointer">How do we start?</summary>
+            <p class="text-neutral-60 mt-3">Plain answer in two or three sentences.</p>
+          </details>
+          <details class="card">
+            <summary class="text-lg font-semibold cursor-pointer">What does it cost?</summary>
+            <p class="text-neutral-60 mt-3">Plain answer about how pricing works.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-heading">
+      <div class="width-container split">
+        <div class="stack">
+          <h2 class="text-3xl font-semibold" id="contact-heading">Start a project</h2>
+          <p class="text-neutral-60">Tell us roughly what you need and we reply within one working day.</p>
+          <form class="stack" method="post" action="#" novalidate>
+            <div class="field-container">
+              <label for="name">Full name</label>
+              <input class="input" id="name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="field-container">
+              <label for="email">Email address</label>
+              <input class="input" id="email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="field-container">
+              <label for="message">What do you need?</label>
+              <textarea class="textarea" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit">Send enquiry</button>
+            </div>
+          </form>
+        </div>
+        <aside class="card stack-sm" aria-label="Direct contact details">
+          <h3 class="text-xl font-semibold">Prefer email?</h3>
+          <p class="text-neutral-60"><a class="text-brand-80 font-semibold" href="mailto:hello@example.com">hello@example.com</a></p>
+          <p class="text-neutral-60">Mon–Fri, 9am–5pm</p>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="section-sm bg-neutral-10 border-t border-neutral-20">
+    <div class="width-container cluster-between">
+      <p class="text-sm text-neutral-60">© Riverside Studio — placeholder starter content</p>
+      <nav aria-label="Legal">
+        <ul class="inline-list text-sm">
+          <li><a class="text-neutral-80" href="#">Privacy</a></li>
+          <li><a class="text-neutral-80" href="#">Accessibility</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brighter Futures Trust — Charity / Community Starter</title>
+  <meta name="description" content="Emily UI charity and community organisation starter: mission hero, programmes, impact stats, volunteer form, and donate call to action.">
+  <link rel="stylesheet" href="dist/emily.css">
+</head>
+<body class="bg-light text-neutral-90">
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="py-4 border-b border-neutral-20">
+    <div class="width-container cluster-between">
+      <a class="text-xl font-bold text-neutral-90 no-underline" href="/">Brighter Futures Trust</a>
+      <nav aria-label="Main">
+        <ul class="inline-list">
+          <li><a class="text-neutral-80" href="#programmes">Programmes</a></li>
+          <li><a class="text-neutral-80" href="#impact">Impact</a></li>
+          <li><a class="text-neutral-80" href="#volunteer">Volunteer</a></li>
+          <li><a class="btn btn-primary btn-sm" href="#donate">Donate</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="section-lg">
+      <div class="width-container">
+        <span class="eyebrow">Registered charity</span>
+        <h1 class="hero-title">The mission, stated in one plain sentence</h1>
+        <p class="hero-lead">Who the organisation supports, where, and what changes because of the work.</p>
+        <div class="button-group">
+          <a class="btn btn-primary btn-lg" href="#donate">Donate</a>
+          <a class="btn btn-secondary btn-lg" href="#volunteer">Volunteer with us</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="impact" aria-labelledby="impact-heading">
+      <div class="width-container stack-lg">
+        <div>
+          <span class="eyebrow">Impact</span>
+          <h2 class="text-3xl font-semibold" id="impact-heading">Last year, together</h2>
+        </div>
+        <div class="grid-auto">
+          <div class="stack-sm"><p class="text-5xl font-bold text-brand-80">2,400</p><p class="text-neutral-60">people supported</p></div>
+          <div class="stack-sm"><p class="text-5xl font-bold text-brand-80">180</p><p class="text-neutral-60">active volunteers</p></div>
+          <div class="stack-sm"><p class="text-5xl font-bold text-brand-80">12</p><p class="text-neutral-60">community programmes</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="programmes" aria-labelledby="prog-heading">
+      <div class="width-container stack-lg">
+        <div>
+          <span class="eyebrow">Programmes</span>
+          <h2 class="text-3xl font-semibold" id="prog-heading">What we run</h2>
+        </div>
+        <div class="grid-auto" role="list">
+          <article class="card card-hover stack-sm relative" role="listitem">
+            <h3 class="text-xl font-semibold">
+              <a class="text-neutral-90 no-underline" href="#volunteer">Programme one<span class="absolute inset-0" aria-hidden="true"></span></a>
+            </h3>
+            <p class="text-neutral-60">Who it serves and what it provides, in one sentence.</p>
+          </article>
+          <article class="card card-hover stack-sm relative" role="listitem">
+            <h3 class="text-xl font-semibold">
+              <a class="text-neutral-90 no-underline" href="#volunteer">Programme two<span class="absolute inset-0" aria-hidden="true"></span></a>
+            </h3>
+            <p class="text-neutral-60">Who it serves and what it provides.</p>
+          </article>
+          <article class="card card-hover stack-sm relative" role="listitem">
+            <h3 class="text-xl font-semibold">
+              <a class="text-neutral-90 no-underline" href="#volunteer">Programme three<span class="absolute inset-0" aria-hidden="true"></span></a>
+            </h3>
+            <p class="text-neutral-60">Who it serves and what it provides.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="story-heading">
+      <div class="width-container split">
+        <img class="aspect-4/3 object-cover w-full rounded-md" src="images/placeholder-community.jpg" alt="Volunteers at a community session">
+        <div class="stack">
+          <h2 class="text-3xl font-semibold" id="story-heading">One story that shows the work</h2>
+          <p class="text-neutral-60">A short, real story: the situation, the support given, and what changed. Names used with permission.</p>
+          <figure class="stack-sm">
+            <blockquote class="text-xl font-semibold text-neutral-90" style="border-left: 4px solid var(--color-brand); padding-left: 1rem">
+              <p>“One sentence from the person supported.”</p>
+            </blockquote>
+            <figcaption class="text-sm text-neutral-60">First name, programme participant</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="donate" aria-labelledby="donate-heading">
+      <div class="width-container">
+        <div class="cta-band">
+          <h2 class="text-3xl font-semibold" id="donate-heading">Your support keeps this running</h2>
+          <p>What a typical donation pays for, stated concretely.</p>
+          <a class="btn btn-primary btn-lg" href="https://donations.example.org" rel="noopener">Donate <span class="sr-only">(opens external donation site)</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="volunteer" aria-labelledby="vol-heading">
+      <div class="width-container split">
+        <div class="stack">
+          <h2 class="text-3xl font-semibold" id="vol-heading">Volunteer with us</h2>
+          <p class="text-neutral-60">The time commitment, the training given, and who to talk to first.</p>
+          <form class="stack" method="post" action="#" novalidate>
+            <div class="field-container">
+              <label for="name">Full name</label>
+              <input class="input" id="name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="field-container">
+              <label for="email">Email address</label>
+              <input class="input" id="email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <fieldset>
+              <legend>What are you interested in?</legend>
+              <div class="checkbox-group">
+                <input class="checkbox" id="int-sessions" name="interests" type="checkbox" value="sessions">
+                <label for="int-sessions">Helping at sessions</label>
+              </div>
+              <div class="checkbox-group">
+                <input class="checkbox" id="int-fundraising" name="interests" type="checkbox" value="fundraising">
+                <label for="int-fundraising">Fundraising</label>
+              </div>
+              <div class="checkbox-group">
+                <input class="checkbox" id="int-skills" name="interests" type="checkbox" value="skills">
+                <label for="int-skills">Offering professional skills</label>
+              </div>
+            </fieldset>
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit">Register interest</button>
+              <span class="text-sm text-neutral-60">We reply within a week.</span>
+            </div>
+          </form>
+        </div>
+        <aside class="card stack-sm" aria-label="Contact details">
+          <h3 class="text-xl font-semibold">Talk to a person</h3>
+          <p class="text-neutral-60"><a class="text-brand-80 font-semibold" href="tel:+441234567890">01234 567 890</a></p>
+          <p class="text-neutral-60"><a class="text-brand-80 font-semibold" href="mailto:hello@example.org">hello@example.org</a></p>
+          <p class="text-neutral-60">Office hours: Mon–Thu, 9am–4pm</p>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="section bg-neutral-10 border-t border-neutral-20">
+    <div class="width-container stack">
+      <div class="cluster-between">
+        <p class="font-semibold text-neutral-90">Brighter Futures Trust</p>
+        <nav aria-label="Legal">
+          <ul class="inline-list text-sm">
+            <li><a class="text-neutral-80" href="#">Privacy</a></li>
+            <li><a class="text-neutral-80" href="#">Safeguarding</a></li>
+            <li><a class="text-neutral-80" href="#">Accessibility</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="text-sm text-neutral-60">Placeholder starter content — registered charity number and trustee details go here.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
