@@ -39,6 +39,17 @@ All starters share the same section vocabulary from `emily-components/templates/
 
 Not sure which to pick? See `emily-components/docs/starter-selection-guide.md`.
 
+## Packaging
+
+This repo is prepared as the future `@emilyui/starters` npm package but is **not published**
+(`"private": true` guards against accidental publish until a consumer exists).
+
+- Planned install: `npm install @emilyui/starters` — though the primary consumer is a future
+  `emilyui init`, which copies a chosen starter folder into a new project rather than importing code.
+- Package payload: the six built starter folders, each self-contained (`README.md`,
+  `emily.config.json`, `index.html`, `dist/emily.css`). Built CSS ships on purpose — starters
+  are zero-build by design.
+
 ## Images
 
 Starters reference relative local placeholders (`images/placeholders/team-member.jpg`, `case-study.jpg`, `community-event.jpg`, …). The files are intentionally not committed — drop your own images under those names, or swap the paths. Never wire a starter to a live third-party image host; use licensed/approved images in production. Meaningful images need real alt text, decorative ones `alt=""`.

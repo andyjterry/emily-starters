@@ -1,0 +1,29 @@
+{
+  "name": "@emilyui/starters",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Complete starter sites built from EmilyUI component patterns. Each starter is plain HTML plus an emily.config.json — re-brand with a config edit and rebuild.",
+  "license": "MIT",
+  "author": "Andy Terry",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyjterry/emily-starters.git"
+  },
+  "homepage": "https://emilyui.com/templates",
+  "keywords": [
+    "emilyui",
+    "emily-css",
+    "starters",
+    "templates",
+    "html",
+    "static-site"
+  ],
+  "files": [
+    "campaign-landing/",
+    "charity-community/",
+    "local-service-business/",
+    "one-page-business/",
+    "portfolio-case-study/",
+    "professional-services/"
+  ]
+}
